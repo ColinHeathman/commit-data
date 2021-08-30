@@ -51,7 +51,9 @@ Then the application API can accessed using curl. jq is recommended for formatti
 The docker-compose.yml has a few environment variables set for the application.
 
 `REDIS_URL=redis:6379` - The redis service to connect to (auth not supported)
-`GITHUB_REPO=teradici/deploy` - The Github repository to read from
-`LISTEN_ADDR=:8080` - The listen address for the HTTP server (https not supported)
-`PROXY_PATH` can also be used to change the URI prefix for the application (eg. "/api/v1")
 
+`GITHUB_REPO=teradici/deploy` - The Github repository to read from
+
+`LISTEN_ADDR=:8080` - The listen address for the HTTP server (https not supported)
+
+`PROXY_PATH` can also be used to change the URI prefix for the application (eg. "/api/v1")
